@@ -1,5 +1,5 @@
 # Parsa's Project
-Welcome to worst balatro mod!
+Welcome to the worst balatro mod!
 # Additions
 1.+15 new jokers
 2.new cons type! random cards!
