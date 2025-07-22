@@ -1,0 +1,13 @@
+{
+	"id": "palatro",
+	"name": "Parsa's Project",
+	"display_name": "Parsa's Project",
+	"author": ["Parsa"],
+	"description": "Not cool, but worth to play",
+	"prefix": "pal",
+	"main_file": "Parsa's Project.lua",
+	"priority": -66,
+	"badge_colour": "f7e302",
+	"badge_text_colour": "f4f0fa",
+	"version": "1.0.0",
+}
