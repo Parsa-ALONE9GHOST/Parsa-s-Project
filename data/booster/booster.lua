@@ -22,7 +22,14 @@ SMODS.Booster{
     group_key = 'rnd_booster',
     config = {extra = 2, choose = 1, name = "Random Pack"},
     discovered = false,
-
+			loc_txt = {
+				name = "Standard Random Pack",
+				text = {
+					"Choose {C:attention}1{} of up to",
+					"{C:attention}2{C:attention} Random Cards{} to",
+					"use immediately",
+				},
+			},
     loc_vars = function(self, info_queue, card)
         return { vars = {card.ability.choose, card.ability.extra} }
     end,
@@ -51,7 +58,14 @@ SMODS.Booster{
     group_key = 'rnd_booster',
     config = {extra = 3, choose = 1, name = "Random Pack"},
     discovered = false,
-
+			loc_txt = {
+				name = "Super Standard Random Pack",
+				text = {
+					"Choose {C:attention}1{} of up to",
+					"{C:attention}3{C:attention} Random Cards{} to",
+					"use immediately",
+				},
+			},
     loc_vars = function(self, info_queue, card)
         return { vars = {card.ability.choose, card.ability.extra} }
     end,
@@ -80,7 +94,14 @@ SMODS.Booster{
     group_key = 'rnd_booster',
     config = {extra = 5, choose = 1, name = "Random Pack"},
     discovered = false,
-
+			loc_txt = {
+				name = "Jumbo Random Pack",
+				text = {
+					"Choose {C:attention}1{} of up to",
+					"{C:attention}5{C:attention} Random Cards{} to",
+					"use immediately",
+				},
+			},
     loc_vars = function(self, info_queue, card)
         return { vars = {card.ability.choose, card.ability.extra} }
     end,
@@ -98,4 +119,5 @@ SMODS.Booster{
     end,
 
     kind = 'RandBoostPack'
+
 }
